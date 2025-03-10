@@ -2,13 +2,16 @@ body {
 	background: black;
 }
 
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
 .postcard {
 	background: white;
-	font-family: "Comic Sans MS", cursive;
 	width: 400px;
 	height: 300px;
 	margin: auto;
-	padding: 25px;
 }
 
 .postcard-header {
@@ -33,16 +36,11 @@ body {
 	margin-top: 0;
 }
 
-.body-right {
-	text-decoration-line: underline gray;
-}
-
 .body-left,
 .body-right {
 	padding: 100;
 }
 
 .postcard-footer {
-	text-align: center;
+	align: center;
 }
-
